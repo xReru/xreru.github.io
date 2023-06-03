@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5449d74f7b.js" crossorigin="anonymous"></script>
+    <title>Random</title>
+</head>
+<body>
+    <div class="container">
+        <div class="right-side">
+            <p class="logo-text">random quotes generator</p>
+        </div>
+        <div class="nav">
+            <ul class="list">
+                <li id="l1" class="active" onclick="toggleActive(this)"><a href="#" class="tab">love</a></li>
+                <li id="l2" onclick="toggleActive(this)"><a href="#" class="tab">inspiration</a></li>
+                <li id="l3" onclick="toggleActive(this)"><a href="#" class="tab">life</a></li>
+                <li id="l4" onclick="toggleActive(this)"><a href="#" class="tab">success</a></li>
+                <li id="l5" onclick="toggleActive(this)"><a href="#" class="tab">friendship</a></li>
+                <li id="l6" onclick="toggleActive(this)"><a href="#" class="tab">happiness</a></li>
+                <li id="l7" onclick="toggleActive(this)"><a href="#" class="tab">family</a></li>
+                <li id="l8" onclick="toggleActive(this)"><a href="#" class="tab">knowledge</a></li>
+            </ul>
+        </div>
+        <div class="quote">
+            <div class="left-side" id="hide-after">
+                <h1 id="greet">
+                    <span>Hello there,</span> 
+                    <span>you're looking for</span> 
+                    <span>quotes about?</span>
+                </h1>
+            </div>
+            <p id="result"></p>
+        </div>
+        <div class="btn">
+            <button id="gen">Generate</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
